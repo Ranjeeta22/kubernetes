@@ -15,5 +15,6 @@ Syntax :  kubectl action resources
 ```
 
 ### Kubernetes Configuration :
-
-Kubectl will try to use the config resides in ~/.kube/config file
+```
+    Kubectl will try to use the config resides in ~/.kube/config file 
+```
