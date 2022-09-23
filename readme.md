@@ -13,3 +13,7 @@ Syntax :  kubectl action resources
 * kubectl api-resources 
 * kubectl --help 
 ```
+
+### Kubernetes Configuration :
+
+Kubectl will try to use the config resides in ~/.kube/config file
