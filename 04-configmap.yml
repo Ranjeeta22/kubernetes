@@ -11,3 +11,10 @@ spec:
 
 --- 
 
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-configmap
+data:
+  URL: www.google.com 
+  ENV: dev 
