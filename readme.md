@@ -38,8 +38,9 @@ Syntax :  kubectl action resources
         b) Liveliness Probe 
         c) Startup Probe 
     
-    8) 
-    
+    8) Resource Utilization   ( CPU, Memory, Page )
+        a) Requests
+        b) Limits
 
 
 ``` 
