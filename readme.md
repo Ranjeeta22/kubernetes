@@ -25,4 +25,6 @@ Syntax :  kubectl action resources
 
 1) PODS
 2) ENV 
-3) 
+3) CMD 
+4) ConfigMap 
+5) 
