@@ -53,11 +53,11 @@ In OS, processes are divided into equal parts called pages, and main memory is a
 ### OpenShift
 ```
     Linux ---> RedHat ( ES )
-        ---> CentOS ( CS )
+          ---> CentOS ( CS )
 
     K8   ---> OpenShift  ( ES ) 
-        ---> Kubernetes ( CS )
-            ( EKS , GKE )
+         ---> Kubernetes ( CS )
+             ( EKS , GKE )
 
 ```
 ## Probes
