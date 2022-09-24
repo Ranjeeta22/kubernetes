@@ -73,3 +73,11 @@ The kubelet uses liveness probes to know when to restart a container. For exampl
 ```
 The kubelet uses readiness probes to know when a container is ready to start accepting traffic. A Pod is considered ready when all of its containers are ready. One use of this signal is to control which Pods are used as backends for Services. When a Pod is not ready, it is removed from Service load balancers.
 ```
+
+
+### Resources :
+It's always recommended to give a maximum of 80% of the nodes capability to a pod.
+
+t3.Medium : 2 CPU , 4 GB Memory 
+
+2
