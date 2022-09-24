@@ -18,5 +18,5 @@ spec:
   containers:
   - name: nginx
     image: nginx:1.14.2
-  - name: nginx
-    image: nginx:1.14.2
+  - name: mongodbb
+    image: mongod
