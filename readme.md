@@ -33,3 +33,4 @@ Syntax :  kubectl action resources
     b) ReplicaSets 
     c) DaemonSets
     d) StatefulSets
+7) Health Checks
