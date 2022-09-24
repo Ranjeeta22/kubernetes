@@ -80,4 +80,5 @@ It's always recommended to give a maximum of 80% of the nodes capability to a po
 
 t3.Medium : 2 CPU , 4 GB Memory 
 
-2
+2 - 0.4 = 16 Core 
+4 - 1.2 = 2.8 Mem 
