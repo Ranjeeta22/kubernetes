@@ -9,10 +9,10 @@ spec:
     resources:
       requests:
         memory: "64Mi"
-        cpu: "250m"
+        cpu: "4"
       limits:
         memory: "128Mi"
-        cpu: "500m"
+        cpu: "8"
   # - name: log-aggregator
   #   image: images.my-company.example/log-aggregator:v6
   #   resources:
