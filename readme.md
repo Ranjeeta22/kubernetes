@@ -20,3 +20,9 @@ Syntax :  kubectl action resources
 ```
 
 ## K8 resources can be created by imperative commands or with the declaratvie approch ( VCS )
+
+#### Resources :
+
+1) PODS
+2) ENV 
+3) 
