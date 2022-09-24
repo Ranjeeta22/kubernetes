@@ -106,6 +106,6 @@ Pob Preemption: Allows Cluster to evict the low priority pods, so that they can 
     name: high-priority
     value: 1000000
     globalDefault: false
-    description: "This priority class should be used for XYZ service pods only."
+    description: "This priority class should be used for XYZ Customers pods only."
 
 ```
