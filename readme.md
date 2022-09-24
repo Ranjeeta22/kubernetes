@@ -22,15 +22,28 @@ Syntax :  kubectl action resources
 ## K8 resources can be created by imperative commands or with the declaratvie approch ( VCS )
 
 #### Resources :
+```
+    1) PODS
+    2) ENV 
+    3) CMD 
+    4) ConfigMap 
+    5) Secret 
+    6) SETS  
+        a) Deployments
+        b) ReplicaSets 
+        c) DaemonSets
+        d) StatefulSets
+    7) Health Checks
 
-1) PODS
-2) ENV 
-3) CMD 
-4) ConfigMap 
-5) Secret 
-6) SETS  
-    a) Deployments
-    b) ReplicaSets 
-    c) DaemonSets
-    d) StatefulSets
-7) Health Checks
+``` 
+
+### OpenShift
+```
+    Linux ---> RedHat ( ES )
+        ---> CentOS ( CS )
+
+    K8   ---> OpenShift  ( ES ) 
+        ---> Kubernetes ( CS )
+            ( EKS , GKE )
+
+```
