@@ -50,7 +50,7 @@ In OS, processes are divided into equal parts called pages, and main memory is a
 ```
 
 ``` 
-### OpenShift
+### OpenShift :  It's a RedHat Flavored K8's. Majorly used for Kubernetes Solution on Data Centers
 ```
     Linux ---> RedHat ( ES )
           ---> CentOS ( CS )
