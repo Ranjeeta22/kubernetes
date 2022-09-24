@@ -38,7 +38,9 @@ Syntax :  kubectl action resources
         b) Liveliness Probe 
         c) Startup Probe 
     
+    8) 
     
+
 
 ``` 
 
