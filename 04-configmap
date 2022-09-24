@@ -1,13 +1,8 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: centos
 spec:
   containers:
-  - name: nginx
-    image: nginx:1.14.2
-    env:
-      - name: URL
-        value: www.google.com
-      - name: ENV
-        value: test
+  - name: centos
+    image: centos:7
