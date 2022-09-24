@@ -18,3 +18,5 @@ metadata:
 data:
   URL: www.google.com 
   ENV: dev 
+  TRAINING: devops 
+  CLOUD: aws
