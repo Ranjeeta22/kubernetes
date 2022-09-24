@@ -8,11 +8,11 @@ spec:
     image: centos:7
     command: ["sleep", "300"]
     envFrom: 
-      
+      - configMapRef: 
+          name: demo-configmap
 
 
 --- 
-
 apiVersion: v1
 kind: ConfigMap
 metadata:
