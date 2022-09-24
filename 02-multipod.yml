@@ -1,10 +1,10 @@
-# Single Pod : Single Container
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx
+  name: multi-pod
 spec:
   containers:
   - name: nginx
     image: nginx:1.14.2
-
+  - name: mongodbb
+    image: mongod
