@@ -89,4 +89,20 @@ t3.Medium : 2 CPU , 4 GB Memory
 ### Pod Priority & Preemption 
 ```
 Pods can have priority. Priority indicates the importance of a Pod relative to other Pods. If a Pod cannot be scheduled, the scheduler tries to preempt (evict) lower priority Pods to make scheduling of the pending Pod possible.
+  
+  --> The higher the value, the higher the priority
+
+```
+
+### How to create a priority class ?
+
+```
+    apiVersion: scheduling.k8s.io/v1
+    kind: PriorityClass
+    metadata:
+    name: high-priority
+    value: 1000000
+    globalDefault: false
+    description: "This priority class should be used for XYZ service pods only."
+
 ```
