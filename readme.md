@@ -34,6 +34,11 @@ Syntax :  kubectl action resources
         c) DaemonSets
         d) StatefulSets
     7) Health Checks
+        a) Readiness Probe 
+        b) Liveliness Probe 
+        c) Startup Probe 
+    
+    
 
 ``` 
 
