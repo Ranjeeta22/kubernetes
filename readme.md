@@ -43,16 +43,13 @@ Syntax :  kubectl action resources
         b) Limits
 
 
+### What is a page: 
 
-PS: Out of context:
-
-What is a page: 
 ```
 In OS, processes are divided into equal parts called pages, and main memory is also divided into equal parts and each part is called a frame. Each page gets stored in one of the frames of the main memory whenever required. So, the size of a frame is equal to the size of a page.
 ```
 
 ``` 
-
 ### OpenShift
 ```
     Linux ---> RedHat ( ES )
