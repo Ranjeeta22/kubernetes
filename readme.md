@@ -18,3 +18,5 @@ Syntax :  kubectl action resources
 ```
     Kubectl will try to use the config resides in ~/.kube/config file 
 ```
+
+## K8 resources can be created by imperative commands or with the declaratvie approch ( VCS )
