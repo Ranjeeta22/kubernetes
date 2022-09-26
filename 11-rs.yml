@@ -19,3 +19,4 @@ spec:
       containers:
       - name: php-redis
         image: nginx:latest
+
