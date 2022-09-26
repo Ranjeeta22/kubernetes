@@ -42,8 +42,8 @@ Syntax :  kubectl action resources
         b) Limits
     9) NameSpace 
    10) Services
-        a) ClusterIP 
-        b) LoadBalancer
+        a) ClusterIP        ( Limits the visibility of the service only with in the cluster )
+        b) LoadBalancer     
         c) NodePort 
         d) External 
 
