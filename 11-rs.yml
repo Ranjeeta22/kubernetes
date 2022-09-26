@@ -20,3 +20,5 @@ spec:
       - name: php-redis
         image: nginx:latest
 
+# rs: Replicaset:v1 
+# rs
