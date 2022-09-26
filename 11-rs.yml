@@ -21,4 +21,4 @@ spec:
         image: nginx:latest
 
 # rs: Replicaset:v1 
-# rs : Replicaset:v1 
+# rs: Replicaset:v1 
