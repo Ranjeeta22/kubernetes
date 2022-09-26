@@ -9,13 +9,30 @@ spec:
     image: nginx:1.14.2
 
 --- 
-
 apiVersion: v1
 kind: Pod
 metadata:
-  name: test-pod
+  name: nginx
+  labels:
+    app.kubernetes.io/name: proxy
 spec:
   containers:
   - name: nginx
-    image: nginx:1.14.2 
+    image: nginx:stable
+    ports:
+      - containerPort: 80
+        name: http-web-svc
 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app.kubernetes.io/name: proxy
+  ports:
+  - name: name-of-service-port
+    protocol: TCP
+    port: 80
+    targetPort: http-web-svc
