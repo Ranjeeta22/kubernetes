@@ -40,7 +40,7 @@ Let's see how can we use EKSCTL to provision the ELS CLuster
 
 ```
 
-### PS: 
+### <u>  NOTE </u>: 
 ```EKS Cluster is a time taking process which would take up minimum 20 to 30 mins. Once it's created, you should be able to be able to execure the kubectl commands```
 
 ### How to Delete the created cluster ?
