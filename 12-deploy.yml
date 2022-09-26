@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: httpd
+        image: alpine:latest
         ports:
         - containerPort: 80
