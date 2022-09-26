@@ -41,7 +41,7 @@ Syntax :  kubectl action resources
         a) Requests
         b) Limits
     9) NameSpace 
-   10) 
+   10) Services
 
 
 ### What is a page: 
