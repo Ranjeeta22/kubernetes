@@ -30,7 +30,7 @@ Syntax :  kubectl action resources
     5) Secret 
     6) SETS  
         a) Deployments
-        b) ReplicaSets 
+        b)  
         c) DaemonSets
         d) StatefulSets
     7) Health Checks
