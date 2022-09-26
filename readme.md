@@ -109,4 +109,6 @@ Pob Preemption: Allows Cluster to evict the low priority pods, so that they can 
 ```
 
 ### REPLICA SET : 
+```
 A ReplicaSet's purpose is to maintain a stable set of replica Pods running at any given time. As such, it is often used to guarantee the availability of a specified number of identical Pods.
+```
