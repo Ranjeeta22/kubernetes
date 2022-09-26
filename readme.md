@@ -44,8 +44,8 @@ Syntax :  kubectl action resources
    10) Services
         a) ClusterIP        ( Limits the visibility of the service only with in the cluster )
         b) LoadBalancer     ( Gives the visbility to public, outside of the cluster )
-        c) NodePort         
-        d) External 
+        c) NodePort         ( Opens the port directly on the NODE )
+        d) External         ( It's just like a CNAME )
 
 
 ### What is a page: 
