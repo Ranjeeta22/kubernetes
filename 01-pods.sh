@@ -17,7 +17,7 @@ metadata:
   name: nginx-service
 spec:
   selector:
-        tier: frontend
+    tier: frontend
   ports:
   - name: name-of-service-port
     protocol: TCP
