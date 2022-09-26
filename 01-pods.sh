@@ -8,21 +8,6 @@ spec:
   - name: nginx
     image: nginx:1.14.2
 
---- 
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx
-  labels:
-    app.kubernetes.io/name: proxy
-spec:
-  containers:
-  - name: nginx
-    image: nginx:stable
-    ports:
-      - containerPort: 80
-        name: http-web-svc
-
 ---
 apiVersion: v1
 kind: Service
