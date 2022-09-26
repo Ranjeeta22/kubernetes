@@ -43,6 +43,7 @@ Syntax :  kubectl action resources
     9) NameSpace 
 
 
+
 ### What is a page: 
 
 ```
