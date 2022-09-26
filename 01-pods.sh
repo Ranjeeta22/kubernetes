@@ -10,16 +10,3 @@ spec:
   - name: nginx
     image: nginx:1.14.2
 
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-service
-spec:
-  selector:
-    tier: frontend
-  ports:
-  - name: name-of-service-port
-    protocol: TCP
-    port: 80
-    targetPort: 80
