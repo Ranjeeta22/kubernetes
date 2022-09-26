@@ -42,7 +42,10 @@ Syntax :  kubectl action resources
         b) Limits
     9) NameSpace 
    10) Services
-        a)
+        a) ClusterIP 
+        b) LoadBalancer
+        c) NodePort 
+        d) External 
 
 
 ### What is a page: 
