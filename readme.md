@@ -36,11 +36,11 @@ Syntax :  kubectl action resources
     7) Health Checks
         a) Readiness Probe 
         b) Liveliness Probe 
-        c) Startup Probe 
-    
+        c) Startup Probe     
     8) Resource Utilization   ( CPU, Memory, Page )
         a) Requests
         b) Limits
+    9) NameSpace 
 
 
 ### What is a page: 
