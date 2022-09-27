@@ -120,4 +120,5 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 
 ### What is a package manager is centos ?  YUM 
 
-### What is a package manager in K8 ? HELM 
+### What is a package manager in K8 ? 
+```HELM 
