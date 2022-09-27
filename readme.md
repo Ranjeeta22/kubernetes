@@ -171,6 +171,6 @@ sample-helm-chart/
 ### How to install our install our own helm chart ?
 
 ```
-helm install chartName ./
+helm install chartName ./chartLocation 
 
 ```
