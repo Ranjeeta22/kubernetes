@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: httpd-deployment
   labels:
-    app: nginx
+    app: httpd
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: httpd
   template:
     metadata:
       labels:
