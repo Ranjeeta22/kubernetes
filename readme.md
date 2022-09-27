@@ -134,7 +134,7 @@ Here are the steps to install ingress controller :
 
 $  helm repo add nginx-stable https://helm.nginx.com/stable
 $  helm repo update 
-$ 
+$  helm install my-release nginx-stable/nginx-ingress
 
 ```
 
@@ -189,3 +189,6 @@ helm charts helps you in keeping the code DRY, which means you can paramterize t
 ```
 $ helm uninstall chartName   
 
+$ helm list 
+
+$ helm upgrade chartName ./chartLocation
