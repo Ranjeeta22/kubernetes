@@ -38,7 +38,7 @@ Let's see how can we use EKSCTL to provision the ELS CLuster
 
     $ kubectl get nodes 
 
-    $ aws eks update-kubeconfig --name dev-eks-cluste
+    $ aws eks update-kubeconfig --name clusterName
 
 ```
 
