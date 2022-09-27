@@ -141,4 +141,4 @@ $
 
 ### How to create a helm chart ?
 
-$ 
+$ helm create .  
