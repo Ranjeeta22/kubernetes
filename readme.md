@@ -148,8 +148,8 @@ $ helm create .
 ```
 
 sample-helm-chart/
-├── charts
-├── Chart.yaml
+├── charts                  
+├── Chart.yaml                         // Chart Metadata file   
 ├── templates                          // All the templated resources would be placed here
 │   ├── deployment.yaml
 │   ├── _helpers.tpl
@@ -160,10 +160,7 @@ sample-helm-chart/
 │   ├── service.yaml
 │   └── tests
 │       └── test-connection.yaml
-└── values.yaml
-
-3 directories, 10 files
-
+└── values.yaml                       // Default values of the char would placed.
 
 ``` 
 
@@ -180,8 +177,18 @@ $ helm upgrade chartName ./chartLocation
 ```
 
 
-### Why are we using HELM Charts ?
+Why are we using HELM Charts ?
 
 ```
 helm charts helps you in keeping the code DRY, which means you can paramterize the whole K8 Manifest file and there by providing an opportunity to create the files once and use it n number times by supplying different values.yml file  
 ```
+
+```
+### How to uninstall the chart ?
+
+```
+$ helm uninstall chartName   
+
+$ helm list 
+
+$ helm upgrade chartName ./chartLocation
