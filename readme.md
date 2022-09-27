@@ -130,6 +130,6 @@ A ReplicaSet's purpose is to maintain a stable set of replica Pods running at an
 ```
 Ref: https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/  
 
-Here are the steps to install ing
+Here are the steps to install ingress controller 
 
 ```
