@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service
+  name: httpd-service
 spec:
   selector:
-    app: nginx
+    app: httpd
   ports:
   - name: name-of-service-port
     protocol: TCP
