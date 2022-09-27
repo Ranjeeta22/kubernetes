@@ -172,6 +172,7 @@ sample-helm-chart/
 
 ```
 $ helm install chartName ./chartLocation  
+
 $ helm list 
 
 $ helm upgrade chartName ./chartLocation
