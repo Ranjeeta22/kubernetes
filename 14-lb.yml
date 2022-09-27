@@ -5,6 +5,8 @@ metadata:
   name: nginx
   labels:
     tier: frontend
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-type: external
 spec:
   containers:
   - name: nginx
