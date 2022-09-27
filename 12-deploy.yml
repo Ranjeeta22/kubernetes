@@ -43,8 +43,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    host:
-  - http:
+    host: 
+    http:
       paths:
       - path: "/"
         pathType: Prefix
