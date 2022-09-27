@@ -141,4 +141,28 @@ $
 
 ### How to create a helm chart ?
 
-$ helm create .  
+$ helm create .   
+
+### Here is how the structre of the helm chart
+
+```
+
+sample-helm-chart/
+├── charts
+├── Chart.yaml
+├── templates
+│   ├── deployment.yaml
+│   ├── _helpers.tpl
+│   ├── hpa.yaml
+│   ├── ingress.yaml
+│   ├── NOTES.txt
+│   ├── serviceaccount.yaml
+│   ├── service.yaml
+│   └── tests
+│       └── test-connection.yaml
+└── values.yaml
+
+3 directories, 10 files
+
+
+``` 
