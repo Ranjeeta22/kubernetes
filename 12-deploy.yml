@@ -39,14 +39,16 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ingress-nginx
+  name: example-ingress
 spec:
-  ingressClassName: nginx
+  ingressClassName: kong
   rules:
-  - host: nginx.b49-roboshop.store
-    http:
+  - http:
       paths:
-      - path: /
+      - path: /testpath
+        pathType: Prefix
         backend:
-          serviceName: nginx-service
-          servicePort: 80
+          service:
+            name: test
+            port:
+              number: 80
