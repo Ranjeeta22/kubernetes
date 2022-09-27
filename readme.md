@@ -166,3 +166,6 @@ sample-helm-chart/
 
 
 ``` 
+
+
+How to install our install our own helm chart ?
