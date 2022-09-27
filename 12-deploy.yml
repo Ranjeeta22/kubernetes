@@ -41,7 +41,7 @@ kind: Ingress
 metadata:
   name: nginx-ingress
 spec:
-  ingressClassName: kong
+  ingressClassName: nginx
   rules:
   - http:
       paths:
