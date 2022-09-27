@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: 1.23.1-perl:latest
+        image: nginx:1.23.1-perl
         ports:
         - containerPort: 80
 
