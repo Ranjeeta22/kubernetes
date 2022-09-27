@@ -43,7 +43,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: "nginx.b49-roboshop.store"
+  - host: "httpd.b49-roboshop.store"
     http:
       paths:
       - path: "/"
