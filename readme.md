@@ -143,7 +143,7 @@ $
 
 $ helm create .   
 
-### Here is how the structre of the helm chart
+### Here is how the structre of the helm chart looks like
 
 ```
 
