@@ -36,7 +36,9 @@ Let's see how can we use EKSCTL to provision the ELS CLuster
 
     $ eksctl create cluster --name k8-test --version 1.22 --region us-east-1 --nodegroup-name k8-ng --node-type t3.micro --nodes 2
 
-    $ kubectl get nodes
+    $ kubectl get nodes 
+
+    $ aws eks update-kubeconfig --name dev-eks-cluste
 
 ```
 

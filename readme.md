@@ -189,6 +189,3 @@ helm charts helps you in keeping the code DRY, which means you can paramterize t
 ```
 $ helm uninstall chartName   
 
-$ helm list 
-
-$ helm upgrade chartName ./chartLocation
