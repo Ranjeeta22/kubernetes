@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: cart-deployment
   labels:
     app: nginx
 spec:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: 834725375088.dkr.ecr.us-east-1.amazonaws.com/cart:700
         ports:
         - containerPort: 80
 
@@ -24,7 +24,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service
+  name: cart-service
 spec:
   selector:
     app: nginx
