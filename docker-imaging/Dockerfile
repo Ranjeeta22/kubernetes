@@ -10,6 +10,7 @@
 # # CMD     nginx -g "daemon off;"
 
 
-FROM centos:7 
-CMD  ["google.com"]
+FROM        centos:7 
+CMD         ["google.com"] 
+ENTRYPOINT  [ "ping", "-c", "5" ]
 
