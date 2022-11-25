@@ -6,5 +6,8 @@ COPY    index.html  /usr/share/nginx/html/index.html
 ENV   COMPONENT=nginx 
 EXPOSE  80 
 LABEL   COMPONENT=${COMPONENT}
-CMD     ["nginx", "-g", "daemon off;"] 
+CMD     ["nginx", "-g", "daemon off;"]  
+
+
+# CMD  and ENTRYPOINT 
 
