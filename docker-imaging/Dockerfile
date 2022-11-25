@@ -7,7 +7,7 @@ ENV     COMPONENT=nginx
 EXPOSE  80 
 LABEL   COMPONENT=${COMPONENT}
 # CMD     ["nginx", "-g", "daemon off;"]  
-ENTRYPOINT [ "" ]
+CMD     nginx -g "daemon off;"
 
 
 # CMD  and ENTRYPOINT 
