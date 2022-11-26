@@ -1,4 +1,8 @@
-apiVersion:
-kind:
+apiVersion: v1
+kind: Pod 
 metadata:
+  name: sample1 
 spec:
+  containers: 
+    - name: sample 
+      image: nginx 
