@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: config-pod 
+spec:
+  containers: 
+    - name: demo  
+      image: centos:7 
+      command: ['sh', '-c', 'echo "Hello, Kubernetes!" && sleep 3600']
