@@ -9,14 +9,14 @@ EKS is a managed kubernetes solution on AWS. Which is very powerful, available a
 
 ### EKS Cluster can be created in any of the following ways of your choice :
 ```
-    1) Singin to EKS Console and do all the steps manually ( which is really lengthy )
+    1) Sign in to EKS Console and do all the steps manually ( which is really lengthy )
     2) EKSCTL
     3) Terraform
 ```
 
 Among all EKSCTL and TERRAFORM are the most convinient ways.
 
-### EKSCTL: This is an officila CLI Tool for AWS EKS from Weaveworks.
+### EKSCTL: This is an official CLI Tool for AWS EKS from Weaveworks.
 
 Let's see how can we use EKSCTL to provision the ELS CLuster
 
@@ -34,7 +34,7 @@ Let's see how can we use EKSCTL to provision the ELS CLuster
 
    Here is how the final command should look like
 
-    $ eksctl create cluster --name k8-test --version 1.22 --region us-east-1 --nodegroup-name k8-ng --node-type t3.micro --nodes 2
+    $ eksctl create cluster --name clusterName --version 1.22 --region us-east-1 --nodegroup-name k8-ng --node-type t3.micro --nodes 2
 
     $ kubectl get nodes 
 
@@ -43,7 +43,7 @@ Let's see how can we use EKSCTL to provision the ELS CLuster
 ```
 
 ### <u>  NOTE </u>: 
-```EKS Cluster is a time taking process which would take up minimum 20 to 30 mins. Once it's created, you should be able to be able to execure the kubectl commands```
+```EKS Cluster is a time taking process which would take up minimum 20 to 30 mins. Once it's created, you should be able to be able to execute the kubectl commands```
 
 ### How to Delete the created cluster ?
 
