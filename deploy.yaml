@@ -39,7 +39,7 @@ spec:
         - name: DOCUMENTDB
           value: "true"
         - name: MONGO_URL
-          value: "mongodb://admin1:RoboShop123@prod-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+          value: "mongodb://admin1:RoboShop123@roboshop-dev.cluster-c93whrwsdihk.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
 
 
 ---
@@ -68,7 +68,7 @@ spec:
       image: 355449129696.dkr.ecr.us-east-1.amazonaws.com/cart:3.0.0
       env:
         - name: REDIS_HOST
-          value: prod-redis.nud0cy.0001.use1.cache.amazonaws.com
+          value: roboshop-dev.8m1fwx.0001.use1.cache.amazonaws.com                
         - name: CATALOGUE_HOST
           value: catalogue
         - name: CATALOGUE_PORT
@@ -102,9 +102,9 @@ spec:
         - name: DOCUMENTDB
           value: "true"
         - name: MONGO_URL
-          value: "mongodb://admin1:RoboShop123@prod-docdb.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
+          value: "mongodb://admin1:RoboShop123@roboshop-dev.cluster-c93whrwsdihk.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
         - name: REDIS_HOST
-          value: prod-redis.nud0cy.0001.use1.cache.amazonaws.com
+          value: roboshop-dev.8m1fwx.0001.use1.cache.amazonaws.com
 
 ---
 apiVersion: v1
@@ -134,8 +134,8 @@ spec:
         - name: CART_ENDPOINT
           value: cart:8080
         - name: DB_HOST
-          value: prod-rds.cluster-cbvsbeoyxek4.us-east-1.rds.amazonaws.com
-
+          value: roboshop-mysql-dev.c93whrwsdihk.us-east-1.rds.amazonaws.com
+                 
 ---
 apiVersion: v1
 kind: Service
@@ -170,7 +170,7 @@ spec:
         - name: USER_PORT
           value: "8080"
         - name: AMQP_HOST
-          value: rabbitmq-prod.roboshop.internal
+          value: rabbitmq-dev.roboshop.internal
         - name: AMQP_USER
           value: roboshop
         - name: AMQP_PASS
