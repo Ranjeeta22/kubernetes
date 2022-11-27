@@ -28,6 +28,7 @@ Syntax :  kubectl action resources
     3) CMD 
     4) ConfigMap 
     5) Secret 
+    
     6) SETS  
         a) ReplicaSets        
         b) Deployments
