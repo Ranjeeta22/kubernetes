@@ -5,7 +5,7 @@ metadata:
   labels:
     tier: frontend
 spec:
-  replicas: 3
+  replicas: 3           # In replicaSet, the only value that you can change once they deploy is REPLICAS
   selector:
     matchLabels:
       tier: frontend
@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: nginx:1.22
+        image: nginx:1.22   # This value cannot be updated as a part of the kubectl apply 
